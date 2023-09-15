@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 21px 108px;
+  align-items: center;
+  ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    color: #ff6060;
+    li {
+      padding-left: 36px;
+    }
+  }
+  .logo {
+    height: 68px;
+    width: 210px;
+  }
+}
