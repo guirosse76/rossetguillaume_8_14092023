@@ -8,6 +8,7 @@ import {
   Link,
 } from "react-router-dom";
 import "./index.css";
+import About from "./views/About/About";
 import Home from "./views/Home/Home";
 import Error from "./views/Error/Error";
 
@@ -18,6 +19,8 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/logements/:id" element={<logements />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>

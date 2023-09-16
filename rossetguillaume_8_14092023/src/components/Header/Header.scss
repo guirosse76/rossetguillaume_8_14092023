@@ -64,6 +64,7 @@
       &_inactive {
         transition: all 350ms ease-in-out;
         color: #ff6060;
+        text-decoration: none;
         &:hover {
           font-family: "Montserrat-Medium";
           background: hsla(0, 100%, 82%, 0.2);
