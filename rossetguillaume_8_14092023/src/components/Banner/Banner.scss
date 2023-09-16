@@ -1,0 +1,11 @@
+.Banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    object-fit: cover;
+    height: 223px;
+    width: 80%;
+    border-radius: 25px;
+  }
+}
