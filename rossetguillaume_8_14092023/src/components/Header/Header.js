@@ -20,7 +20,7 @@ const Header = () => {
               }
               title="Accueil"
               end
-              to="/home"
+              to="/"
             >
               Accueil
             </NavLink>

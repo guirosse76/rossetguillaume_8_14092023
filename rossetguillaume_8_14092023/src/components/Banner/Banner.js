@@ -1,13 +1,13 @@
-import imgBanner from "../../assets/images/banner.png";
+import React from "react";
 import "./Banner.scss";
 
-function Banner() {
+const Banner = ({ title, src }) => {
   return (
     <div className="Banner">
-      <h1 class="banner_title">Chez vous, partout et ailleurs</h1>
-      <img src={imgBanner} alt="Banniere" className="imgBanner" />
+      {title && <h1 className="banner_title">{title}</h1>}
+      <img src={src} alt="banniere-kasa" className="banner_img" />
     </div>
   );
-}
+};
 
 export default Banner;

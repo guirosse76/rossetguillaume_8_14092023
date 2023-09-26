@@ -1,3 +1,9 @@
+$primary-color: #ff5656;
+
+$bg-clr: #fff;
+
+$bg-content: #f0f0f0;
+
 @keyframes slide {
   0% {
     overflow: hidden;
@@ -22,6 +28,10 @@
   .collapse_content {
     animation: slide 2s ease-in-out;
   }
+}
+
+.svg-inline--fa {
+  padding-right: 10px;
 }
 
 .collapse {

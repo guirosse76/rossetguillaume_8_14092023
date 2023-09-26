@@ -1,19 +1,23 @@
 import "./Home.scss";
 import Logements from "../../data/logements.json";
 
-import Header from "../../components/Header/Header";
 import Banner from "../../components/Banner/Banner";
-import DisplayCards from "../../components/Cards/DisplayCards";
-// import Cards from "../../components/Cards/Cards";
-import Footer from "../../components/Footer/Footer";
+import Card from "../../components/Card/Card";
+
+import imgBanner from "../../assets/images/banner.png";
 
 function Home() {
   return (
     <>
-      <Header />
-      <Banner />
-      <DisplayCards />
-      <Footer />
+      <Banner src={imgBanner} title="Chez vous, partout et ailleurs" />
+
+      <section className="logements_container">
+        <ul className="logements_list">
+          {Logements.map(({ id, title, cover }) => (
+            <Card key={id} id={id} title={title} cover={cover} />
+          ))}
+        </ul>
+      </section>
     </>
   );
 }
