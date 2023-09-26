@@ -1,9 +1,8 @@
 import React from "react";
-import { NavLink, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { Navigate } from "react-router-dom";
 import Logements from "../../data/logements.json";
 import Collapse from "../../components/Collapse/Collapse";
-import Error from "../../views/Error/Error";
 import Gallery from "../../components/Gallery/Gallery";
 import RatingScale from "../../components/RatingScale/RatingScale";
 

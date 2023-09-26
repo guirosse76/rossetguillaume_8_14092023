@@ -43,8 +43,8 @@
       align-items: center;
 
       &_content {
-        width: 100% !important;
-        margin-bottom: 0 !important;
+        width: 100%;
+        margin-bottom: 0;
       }
     }
   }
@@ -53,7 +53,7 @@
 .housing_page {
   width: 95%;
   min-height: 35rem;
-  margin: 1rem auto 7rem auto;
+  margin: 1rem auto 0rem auto;
 
   &_header {
     display: flex;
