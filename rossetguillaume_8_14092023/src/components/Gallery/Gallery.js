@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import "./Gallery.scss";
-// import arrowLeft from "../../assets/images/arrowLeft.png";
-// import arrowRight from "../../assets/images/arrowRight.png";
+
 const angleLeft = <FontAwesomeIcon icon={faAngleLeft} />;
 const angleRight = <FontAwesomeIcon icon={faAngleRight} />;
 

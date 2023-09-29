@@ -2,8 +2,6 @@ $primary-color: #ff5656;
 $bg-clr: #fff;
 $bg-content: #f0f0f0;
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-
 html {
   position: relative;
   min-height: 100%;
@@ -11,13 +9,13 @@ html {
   max-width: 1440px;
   font-size: 18px;
   color: $primary-color;
-  font-family: "Montserrat-Regular";
+  font-family: "Montserrat";
   background: $bg-clr;
 }
 
 h1,
 h2 {
-  font-family: "Montserrat-Medium";
+  font-family: "Montserrat";
 }
 
 ul {
