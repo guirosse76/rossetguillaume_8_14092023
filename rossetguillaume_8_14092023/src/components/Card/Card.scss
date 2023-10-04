@@ -1,36 +1,3 @@
-@media (max-width: 768px) {
-  .logements {
-    &_container {
-      background-color: transparent;
-      margin: 0 0 4rem 0;
-      padding: 0;
-      width: 100%;
-    }
-
-    &_list {
-      padding: 0rem;
-    }
-  }
-
-  .logements {
-    width: 100%;
-
-    &_figure {
-      margin: 1rem 0.5rem;
-
-      &_cover {
-        height: 400px;
-      }
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  .logements {
-    width: 50%;
-  }
-}
-
 .logements {
   &_container {
     width: 95%;
@@ -97,5 +64,37 @@
         bottom: 0px;
       }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .logements {
+    &_container {
+      background-color: transparent;
+      padding: 0;
+      width: 100%;
+    }
+
+    &_list {
+      padding: 0rem;
+    }
+  }
+
+  .logements {
+    width: 100%;
+
+    &_figure {
+      margin: 10px 3px;
+
+      // &_cover {
+      //   height: 400px;
+      // }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .logements {
+    width: 50%;
   }
 }

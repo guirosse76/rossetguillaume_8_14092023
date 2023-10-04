@@ -24,12 +24,6 @@ $bg-content: #f0f0f0;
   }
 }
 
-@media (max-width: 768px) {
-  .collapse_content {
-    animation: slide 2s ease-in-out;
-  }
-}
-
 .svg-inline--fa {
   padding-right: 10px;
 }
@@ -70,5 +64,11 @@ $bg-content: #f0f0f0;
     font-size: 16px;
     line-height: 23px;
     animation: slide 1s ease-in;
+  }
+}
+
+@media (max-width: 768px) {
+  .collapse_content {
+    animation: slide 2s ease-in-out;
   }
 }

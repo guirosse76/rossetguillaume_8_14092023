@@ -1,11 +1,3 @@
-// @import "variables";
-
-@media (max-width: 768px) {
-  .slideshow_idx {
-    display: none;
-  }
-}
-
 .slideshow {
   display: flex;
   justify-content: center;
@@ -69,5 +61,11 @@
     border-radius: 0.3rem;
     opacity: 0;
     transition: opacity 250ms ease-in-out;
+  }
+}
+
+@media (max-width: 768px) {
+  .slideshow_idx {
+    display: none;
   }
 }

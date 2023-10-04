@@ -1,55 +1,3 @@
-@media (max-width: 768px) {
-  .housing_page {
-    min-height: 40rem;
-
-    &_header {
-      flex-direction: column;
-      margin-bottom: 0;
-
-      &_infos {
-        &_tags {
-          &_tag {
-            margin-bottom: 1rem;
-          }
-        }
-      }
-
-      &_hoster {
-        flex-direction: row-reverse;
-        align-items: center;
-        margin-top: 0;
-        margin-bottom: 0.5rem;
-
-        &_infos {
-          align-items: center;
-          &_name {
-            margin-top: 0;
-            margin-bottom: 0;
-          }
-        }
-
-        &_ratings {
-          padding: 0 0.2rem 1rem 0;
-          &_star {
-            padding: 0 0.2rem 3rem 0;
-          }
-        }
-      }
-    }
-
-    &_collapses {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
-      &_content {
-        width: 100%;
-        margin-bottom: 0;
-      }
-    }
-  }
-}
-
 .housing_page {
   width: 95%;
   min-height: 35rem;
@@ -66,6 +14,8 @@
       justify-content: space-between;
 
       &_title {
+        font-family: "Montserrat";
+        font-weight: 500;
         font-size: 35px;
         margin: 0;
       }
@@ -140,6 +90,58 @@
       width: 47%;
       & ul {
         margin: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .housing_page {
+    min-height: 40rem;
+
+    &_header {
+      flex-direction: column;
+      margin-bottom: 0;
+
+      &_infos {
+        &_tags {
+          &_tag {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+
+      &_hoster {
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+
+        &_infos {
+          align-items: center;
+          &_name {
+            margin-top: 0;
+            margin-bottom: 0;
+          }
+        }
+
+        &_ratings {
+          padding: 0 0.2rem 1rem 0;
+          &_star {
+            padding: 0 0.2rem 3rem 0;
+          }
+        }
+      }
+    }
+
+    &_collapses {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      &_content {
+        width: 100%;
+        margin-bottom: 0;
       }
     }
   }
