@@ -126,9 +126,11 @@
         }
 
         &_ratings {
-          padding: 0 0.2rem 1rem 0;
+          text-align: left;
+          margin: 0;
           &_star {
-            padding: 0 0.2rem 3rem 0;
+            font-size: 14px;
+            padding: 0px;
           }
         }
       }

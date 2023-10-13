@@ -1,3 +1,7 @@
+.slidershowOnly {
+  display: block !important;
+}
+
 .slideshow {
   display: flex;
   justify-content: center;
@@ -7,6 +11,9 @@
   position: relative;
   border-radius: 0.8rem;
   box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.1);
+  &_1 {
+    display: block;
+  }
   &:hover {
     .slideshow_idx {
       opacity: 1;

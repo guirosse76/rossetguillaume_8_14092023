@@ -33,7 +33,11 @@ const Gallery = (props) => {
   };
 
   return (
-    <div className="slideshow">
+    <div
+      className={
+        props.img.length > 1 ? "slideshow" : "slideshow slidershowOnly"
+      }
+    >
       <div
         className="slideshow_container"
         style={{ transform: `translateX(-${slideIdx * imgSize()}px)` }}
@@ -63,6 +67,11 @@ const Gallery = (props) => {
           </div>
         </>
       )}
+      {/* {props.img.length === 1 && (
+        <>
+          <div className="slideshow_1"></div>
+        </>
+      )} */}
     </div>
   );
 };
